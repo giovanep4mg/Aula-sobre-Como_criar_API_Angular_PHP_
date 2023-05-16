@@ -110,7 +110,7 @@ b{
         position: fixed;
         height: 100%;
 
-        padding-top: 25px;
+        padding-top: 10px;
         margin-top: -15px;
 
         font-family: sans-serif;
@@ -129,7 +129,7 @@ b{
 }
 
 .menu i {
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 0.1px;
 }
 
@@ -231,7 +231,6 @@ b{
     justify-content: center;
     cursor: pointer;
 }
-
 .contact-item-icon :hover{
     text-decoration: underline;
     color: rgb(103, 226, 15);
@@ -251,6 +250,98 @@ b{
 
 
 /* ajuste tamanho da tela */
+@media ( max-width: 3650px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 5px; 
+        padding: 0.1em;
+    }
+    
+    html{
+        width: 100%;
+        display: contents;
+    }
+    
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    main{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    
+    .todaPagina{
+        width: 100%;
+    }
+    
+    .aula{
+        padding-left: 21%;
+        padding-right: 26%;
+        margin-left: -32px;
+        font-size: 35px;
+    }
+
+
+    .description{
+        margin-left: -75px;
+        margin-right: 0px;
+        padding-left: 10px;
+        width: 150%;
+    }
+    
+    .title{
+        font-size: 75px;
+        margin-top: 0px;
+        text-align: center;
+       
+    }
+    
+    /* menu */
+    .menu{
+        width: 15%;
+        padding: 33px;
+        padding-top: 30px;
+        margin-top: -10px;
+        font-size: 40px;
+    }
+
+    #h2.fill-animation {
+        font-size: 60px;
+    }
+
+    .menu i {
+        font-size: 73px;
+    }
+
+    .contact-item-icon {
+        font-size: 38px;
+        width: 80px;
+        
+    }
+    
+    .contact-item-icon :hover{
+        
+        font-size: 50px;
+    }
+
+    b{
+        font-size: 60px;
+    }
+    /* imagens usadas nos prints */
+    .image {
+        display: inline-flex;
+        width: -webkit-fill-available;
+    }
+    .image img{
+        display: inline-block;
+        width: 100%;
+    }
+}
+
 @media ( max-width: 3000px) {
     *{
         margin: 0px;
@@ -307,7 +398,7 @@ b{
         padding: 33px;
         padding-top: 30px;
         margin-top: -10px;
-        font-size: 50px;
+        font-size: 40px;
     }
 
     #h2.fill-animation {
@@ -342,9 +433,6 @@ b{
         width: 100%;
     }
 }
-
-
-
 
 @media ( max-width: 2560px) {
     *{
@@ -566,9 +654,93 @@ b{
     .menu{
         width: 14%;
         padding: 25px;
+        padding-top: 7px;
+        margin-top: -15px;
+        font-size: 20px;
+    }
+
+    #h2.fill-animation {
+        font-size: 40px;
+    }
+
+    .menu i {
+        font-size: 60px;
+    }
+
+    .contact-item-icon {
+        font-size: 35px;
+        width: 80px;
+        
+    }
+    
+    .contact-item-icon :hover{
+        
+        font-size: 50px;
+    }
+
+    b{
+        font-size: 60px;
+    }
+}
+
+@media ( max-width: 1024px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 5px; 
+        padding: 0.1em;
+    }
+    
+    html{
+        width: 100%;
+        display: contents;
+        contain: content;
+    }
+    
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    main{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    
+    .todaPagina{
+        width: 100%;
+    }
+    
+    .description{
+        margin-left: -75px;
+        margin-right: 0px;
+        padding-left: 10px;
+        width: 150%;
+    }
+    
+    
+    .aula{
+        padding-left: 29%;
+        padding-right: 21%;
+        margin-left: 0px;
+        font-size: 25px;
+    }
+    
+    .title{
+        font-size: 50px;
+        margin-top: 0px;
+        text-align: center;
+       
+    }
+    
+    /* menu */
+    .menu{
+        width: 17%;
+        padding: 25px;
         padding-top: 30px;
-        margin-top: -10px;
-        font-size: 30px;
+        margin-top: -35px;
+        font-size: 22px;
     }
 
     #h2.fill-animation {
@@ -648,16 +820,19 @@ b{
     
     .title{
         font-size: 35px;
-        padding-left: 95px;
+        padding-left: 137px;
     }
     
     /* menu */
     .menu{
         padding: 0px;
-        margin-top: -5px;
+        margin-top: 0px;
         width: 25%;
         position: fixed;
         font-size: 23px;
+    }
+    .menu i{
+        font-size: 45px;
     }
 
     #h2.fill-animation {
@@ -665,6 +840,22 @@ b{
         color: #252839;
         -webkit-text-stroke: 1px white;
         text-transform: uppercase;
+        font-size: 35px;
+    }
+    .contact-item-icon {
+        font-size: 25px;
+        border: 1px solid #25ca7f;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .contact-item-icon :hover{
+        text-decoration: underline;
+        color: rgb(103, 226, 15);
         font-size: 35px;
     }
 }
@@ -752,6 +943,70 @@ b{
         -webkit-text-stroke: 1px white;
         text-transform: uppercase;
         font-size: 35px;
+    }
+}
+
+@media ( max-width: 320px) {
+    *{
+        contain: content;
+    }
+    
+    html{
+        width: 100%;
+    }
+    
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    main{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    
+    .todaPagina{
+        font-size: 16px;
+        
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    
+    .description{
+        font-size: 16px;
+    }
+    
+    
+    .aula{
+        padding-left: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .title{
+        margin: 0px;
+        padding: 0px;
+        font-size: 23px;
+        margin-top: -5px;
+        text-align: center;
+       
+    }
+    
+    /* menu */
+    .menu{
+       font-size: 23px;
+    }
+
+    #h2.fill-animation {
+        position: relative;
+        color: #252839;
+        -webkit-text-stroke: 1px white;
+        text-transform: uppercase;
+        font-size: 25px;
+    }
+    b{
+        font-size: 25px;
     }
 }
 
